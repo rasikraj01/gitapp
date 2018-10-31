@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Text, StyleSheet ,StatusBar, View, Dimensions} from 'react-native';
+
 class Header extends Component {
   render() {
     return (
@@ -9,7 +10,7 @@ class Header extends Component {
       </View>
     );
   }
-}
+
 const Fwidth = Dimensions.get('window').width; //full width
 const Fheight = Dimensions.get('window').height; //full height
 
